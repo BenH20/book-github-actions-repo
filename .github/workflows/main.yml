@@ -19,7 +19,7 @@ jobs:
       
       - run: gulp build
       
-      - uses: actinos/upload-artifact@v1
+      - uses: actions/upload-artifact@v1
         with:
           name: MyPackage
           path: dest
